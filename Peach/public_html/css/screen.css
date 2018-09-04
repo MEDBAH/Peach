@@ -9,7 +9,9 @@ body.home:before{
     right: 0;
     bottom: 0;
     top: 0;
-    background: url(../images/);
+    background: url(../images/Groupe-43.png) no-repeat center top;
+    background-size: 100% 60%;
+    transform: translateY(-40%);
     z-index: -1;
 }
 [class^="col-"], [class*=" col-"], .row{
@@ -30,7 +32,6 @@ body.home:before{
 
 
 /*Home*/
-
 
 
 
