@@ -1,3 +1,23 @@
+/*Body*/
+body {
+    font-size: 15px;
+}
+body.home:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/Groupe-43.png) no-repeat center top;
+    background-size: 100% 60%;
+    transform: translateY(-40%);
+    z-index: -1;
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
 /*Sign In*/
 
 
@@ -16,9 +36,14 @@
 
 
 
-
 /*Account*/
-
+.navigator{
+    display: block;
+    width: 100%;
+}
+.align-left{
+   padding-top:4rem;
+}
 
 
 
