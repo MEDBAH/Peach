@@ -10,8 +10,8 @@ body.home:before{
     bottom: 0;
     top: 0;
     background: url(../images/Groupe-43.png) no-repeat center top;
-    background-size: 100% 60%;
-    transform: translateY(-40%);
+    background-size: 100% 30rem;
+    transform: translateY(-21rem);
     z-index: -1;
 }
 [class^="col-"], [class*=" col-"], .row{
