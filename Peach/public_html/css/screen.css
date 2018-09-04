@@ -37,7 +37,13 @@ body.home:before{
 
 
 /*Account*/
-
+.navigator{
+    display: block;
+    width: 100%;
+}
+.align-left{
+   padding-top:4rem;
+}
 
 
 
