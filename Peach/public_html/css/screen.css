@@ -40,7 +40,10 @@ body.home:before{
 .navigator{
     display: block;
     width: 100%;
+    padding: 3rem 1.5rem;
+    padding-bottom: 0;
 }
+ 
 .align-left{
    padding-top:4rem;
 }
