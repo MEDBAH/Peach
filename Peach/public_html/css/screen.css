@@ -56,9 +56,13 @@ body.home:before{
 
 
 /*Help*/
-
-
-
+main {
+    text-align: center;
+}
+main.row{
+    margin: 0;
+    padding: 0;
+}
 
 
 /*Transfer*/
