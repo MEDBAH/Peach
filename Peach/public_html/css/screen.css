@@ -43,7 +43,14 @@ body.home:before{
     padding: 3rem 1.5rem;
     padding-bottom: 0;
 }
- 
+.navigator span{
+    color: white;
+    text-align: center;
+    font-size:1.2rem;
+}
+.navigator .masque{
+    text-align:right;
+}
 .align-left{
    padding-top:4rem;
 }
