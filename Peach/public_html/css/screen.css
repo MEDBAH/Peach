@@ -32,9 +32,23 @@ body.home:before{
 
 
 /*Home*/
-
-
-
+main .wallet-container {
+    margin-top: 2rem;
+}
+main .wallet-container .wallet {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
+    -webkit-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    height: 2rem;
+    width: 10rem;
+}
+main .wallet-container div.background {
+    background-image: url(../images/Groupe-45.png);
+    background-size: cover;
+    z-index: 1;
+}
 
 /*Account*/
 .navigator{
@@ -53,12 +67,29 @@ body.home:before{
     text-align:right;
 }
 .align-left{
-   padding-top:4rem;
+    padding-top:4rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.align-left span{
+    color: #5E5E5E;
+    padding-bottom:1rem;
+}
+.align-left img{
+    padding-left: 2rem;
+}
+
+.latest-operation{
+    padding-top: 2rem;
+}
+.latest-operation span{
+    color: #ACACAC;
 }
 
 
 
 
+<<<<<<< HEAD
 /*Menu*/
     
     main.menu li{
@@ -70,16 +101,38 @@ body.home:before{
         
     }
 
+=======
+>>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
 
 
+/*Menu*/
 
 
 
 
 /*Help*/
+<<<<<<< HEAD
 
 
 .main {
+=======
+header.help .center-text {
+    text-align: center;
+}
+header.help span {
+    color: #111111;
+    font-weight: 900;
+}
+main.help {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+/*Transfer*/
+
+main {
+>>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
     text-align: center;
 }
 main.row{
@@ -89,9 +142,12 @@ main.row{
 .masque1 {
     text-align: right;
 }
+<<<<<<< HEAD
 
 
 /*Transfer*/
 
 
 
+=======
+>>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
