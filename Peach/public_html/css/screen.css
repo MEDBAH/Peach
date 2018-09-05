@@ -97,16 +97,18 @@ main .wallet-container div.background {
 
 
 /*Help*/
-main {
+header.help .center-text {
     text-align: center;
 }
-main.row{
-    margin: 0;
-    padding: 0;
+header.help span {
+    color: #111111;
+    font-weight: 900;
 }
-.masque1 {
-    text-align: right;
+main.help {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
-
 /*Transfer*/
 
