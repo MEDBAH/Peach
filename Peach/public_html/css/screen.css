@@ -76,25 +76,77 @@ main.home .wallet-container .background {
     text-align: left;
     padding-left: 1.5rem;
 }
+.align-left span{
+    color: #5E5E5E;
+    font-size:small;
+}
 .align-left img{
     padding-left: 2rem;
 }
+.latest-operation{
+    padding-top: 2rem;
+   
+}
+.latest-operation .title h5{
+display: inline-block;
+}
+.latest-operation span{
+    color: #ACACAC;
+}
+.title-operation{
+   padding-top: 2rem;
+}
+nav  ul {
+    text-decoration: none;
+}
+
+
+
+/*Menu*/
+    
+    main.menu li{
+        
+    list-style:none;
+    padding: 0;
+    margin:  0;
+    text-align: left;
+        
+    }
 /*Menu*/
 
 
 
 
 /*Help*/
-main {
+
+
+.main {
+header.help .center-text {
     text-align: center;
 }
-main.row{
-    margin: 0;
-    padding: 0;
+header.help span {
+    color: #111111;
+    font-weight: 900;
 }
-.masque1 {
-    text-align: right;
+main.help {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+/*Transfer*/
+header.transfer .center-text {
+    text-align: center;
+}
+header.transfer span {
+    color: #111111;
+    font-weight: 900;
+}
+main.transfer {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 /*Transfer*/
-
