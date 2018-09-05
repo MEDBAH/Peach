@@ -98,8 +98,18 @@ main.row{
 .masque1 {
     text-align: right;
 }
-.
+
 
 
 /*Transfer*/
 
+main {
+    text-align: center;
+}
+main.row{
+    margin: 0;
+    padding: 0;
+}
+.masque1 {
+    text-align: right;
+}
