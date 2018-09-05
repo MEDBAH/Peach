@@ -111,14 +111,16 @@ main.help {
     font-weight: 500;
 }
 /*Transfer*/
-
-main {
+header.transfer .center-text {
     text-align: center;
 }
-main.row{
-    margin: 0;
-    padding: 0;
+header.transfer span {
+    color: #111111;
+    font-weight: 900;
 }
-.masque1 {
-    text-align: right;
+main.transfer {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
