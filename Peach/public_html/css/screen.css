@@ -24,11 +24,6 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
-
-}
-h1{
-
-=======
 header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
@@ -39,15 +34,11 @@ header.sign-in h1 {
 .slogan{
     color: black; 
     text-align: center;
->>>>>>> 9f13523092f46afe2196e9fbb8a6b917d5f2879e
 }
 
 legend {
     /*background-color: #343434; */
-<<<<<<< HEAD
-=======
     color: #343434;
->>>>>>> 9f13523092f46afe2196e9fbb8a6b917d5f2879e
     color: #fff;
     padding: 3px 6px;
     text-align: center;
@@ -69,11 +60,8 @@ input[type='password'] {
 
 input {
     margin: .3rem 0;
-<<<<<<< HEAD
-=======
     padding: 2rem;
     border-radius: 2rem;
->>>>>>> 9f13523092f46afe2196e9fbb8a6b917d5f2879e
 
 
 }
@@ -255,7 +243,7 @@ main.help .content {
     padding: 2rem;
     margin-bottom: 1rem;
     font-weight: 100;
-    
+
 }
 
 /*Transfer*/
