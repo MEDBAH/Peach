@@ -1,3 +1,23 @@
+/*Body*/
+body {
+    font-size: 15px;
+}
+body.home:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/Groupe-43.png) no-repeat center top;
+    background-size: 100% 30rem;
+    transform: translateY(-20.5rem);
+    z-index: -1;
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
 /*Sign In*/
 body{
     
@@ -48,29 +68,118 @@ input {
 
 
 /*Home*/
-
-
-
+main.home .wallet-container {
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+}
+main.home .wallet-container .wallet {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
+    -webkit-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    line-height: 2rem;
+    width: 10rem;
+    margin: 0 2rem;
+    border-radius: 2rem;
+}
+main.home .wallet-container .background {
+    background-image: url(../images/Groupe-45.png);
+    background-size: cover;
+    z-index: 1;
+}
 
 
 /*Account*/
+.navigator{
+    display: block;
+    width: 100%;
+    padding: 3rem 1.5rem;
+    padding-bottom: 0;
+}
+.navigator span{
+    color: white;
+    text-align: center;
+    font-size:1.2rem;
+    font-weight:600;
+}
+.navigator .masque{
+    text-align:right;
+}
+.align-left{
+    padding-top:4rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.align-left span{
+    color: #5E5E5E;
+    font-size:small;
+}
+.align-left img{
+    padding-left: 2rem;
+}
+.latest-operation{
+    padding-top: 2rem;
 
-
+}
+.latest-operation .title h5{
+    display: inline-block;
+}
+.latest-operation span{
+    color: #ACACAC;
+}
+.title-operation{
+    padding-top: 2rem;
+}
+nav  ul {
+    text-decoration: none;
+}
 
 
 
 /*Menu*/
 
+main.menu li{
 
+    list-style:none;
+    padding: 0;
+    margin:  0;
+    text-align: left;
+
+}
+/*Menu*/
 
 
 
 
 /*Help*/
 
-
-
-
-
+header.help .center-text {
+    text-align: center;
+}
+header.help span {
+    color: #111111;
+    font-weight: 900;
+}
+main.help {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
 /*Transfer*/
-
+header.transfer .center-text {
+    text-align: center;
+}
+header.transfer span {
+    color: #111111;
+    font-weight: 900;
+}
+main.transfer {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+/*Transfer*/
