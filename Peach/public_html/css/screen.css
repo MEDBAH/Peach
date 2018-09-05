@@ -25,14 +25,14 @@ textarea {
 }
 /*Sign In*/
 body{
-    
+
 }
 h1{
-    
+
 }
 
 legend {
-   /*background-color: #343434; */
+    /*background-color: #343434; */
     color: #fff;
     padding: 3px 6px;
 }
@@ -47,12 +47,12 @@ label {
 input[type='text'],
 input[type='password'] {
     width: 60%;
-    
+
 }
 
 input {
     margin: .3rem 0;
-    
+
 
 }
 
@@ -188,7 +188,7 @@ main.help {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 main.help textarea {
     border-radius: 1.5rem;
@@ -201,13 +201,15 @@ main.help textarea {
     height: 7.5rem;
 }
 
-
-
-
-
-
-
-
+main.help .about p {
+    margin-top:3rem;
+}
+main.help .content {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    
+}
 
 /*Transfer*/
 header.transfer .center-text {
