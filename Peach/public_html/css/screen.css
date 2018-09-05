@@ -88,15 +88,25 @@ main .wallet-container div.background {
 
 
 
-
-
-
+/*Menu*/
+    
+    main.menu li{
+        
+    list-style:none;
+    padding: 0;
+    margin:  0;
+    text-align: left;
+        
+    }
 /*Menu*/
 
 
 
 
 /*Help*/
+
+
+.main {
 header.help .center-text {
     text-align: center;
 }
@@ -124,3 +134,5 @@ main.transfer {
     margin-bottom: 1rem;
     font-weight: 500;
 }
+
+/*Transfer*/
