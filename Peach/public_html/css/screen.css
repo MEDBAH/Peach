@@ -38,17 +38,17 @@ main .wallet-container {
 main .wallet-container .wallet {
     display: inline-block;
     background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
-    height: 2rem;
-    width: 10rem;
     -webkit-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
     -moz-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
     box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    height: 2rem;
+    width: 10rem;
 }
-main .wallet-container .wallet .background {
-    background-image: url(../images/joseph-pearson.png);
+main .wallet-container div.background {
+    background-image: url(../images/Groupe-45.png);
+    background-size: cover;
+    z-index: 1;
 }
-
-
 
 /*Account*/
 .navigator{
@@ -71,17 +71,26 @@ main .wallet-container .wallet .background {
     text-align: left;
     padding-left: 1.5rem;
 }
+.align-left span{
+    color: #5E5E5E;
+    padding-bottom:1rem;
+}
 .align-left img{
     padding-left: 2rem;
 }
 
+.latest-operation{
+    padding-top: 2rem;
+}
+.latest-operation span{
+    color: #ACACAC;
+}
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 6427610f418e8ea52181500a9264da8683bef7b8
+
+
 /*Menu*/
 
 
@@ -98,8 +107,6 @@ main.row{
 .masque1 {
     text-align: right;
 }
-.
-
 
 /*Transfer*/
 
