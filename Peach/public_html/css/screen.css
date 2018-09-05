@@ -89,14 +89,24 @@ main .wallet-container div.background {
 
 
 /*Menu*/
+main.menu nav {
+    margin-top: 10rem;
+}
     
     main.menu li{
         
-    list-style:none;
-    padding: 0;
-    margin:  0;
+    list-style: none;
+    margin: 1.3rem;
     text-align: left;
+    color: black;
+    
         
+    }
+    
+    div.menu{
+        position:absolute;
+        margin-top: 15rem;
+        color: black;
     }
 /*Menu*/
 
