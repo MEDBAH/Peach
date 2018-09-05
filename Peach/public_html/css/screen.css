@@ -73,17 +73,26 @@ main .wallet-container div.background {
 }
 .align-left span{
     color: #5E5E5E;
-    padding-bottom:1rem;
+    font-size:small;
 }
 .align-left img{
     padding-left: 2rem;
 }
-
 .latest-operation{
     padding-top: 2rem;
+   
+}
+.latest-operation .title h5{
+display: inline-block;
 }
 .latest-operation span{
     color: #ACACAC;
+}
+.title-operation{
+   padding-top: 2rem;
+}
+nav  ul {
+    text-decoration: none;
 }
 
 
