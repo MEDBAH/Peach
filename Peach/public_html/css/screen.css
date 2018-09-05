@@ -71,8 +71,18 @@ main .wallet-container .wallet .background {
     text-align: left;
     padding-left: 1.5rem;
 }
+.align-left span{
+    color: #5E5E5E;
+    padding-bottom:1rem;
+}
 .align-left img{
     padding-left: 2rem;
+}
+.latest-operation{
+    padding-top: 2rem;
+}
+.latest-operation span{
+    color: #ACACAC;
 }
 
 
