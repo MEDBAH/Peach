@@ -37,13 +37,10 @@ header.sign-in h1 {
 }
 
 legend {
-<<<<<<< HEAD
     color: #343434;
-=======
     /*background-color: #343434; */
     color: #343434;
     color: #fff;
->>>>>>> 9f13523092f46afe2196e9fbb8a6b917d5f2879e
     padding: 3px 6px;
     text-align: center;
 
@@ -63,17 +60,12 @@ input[type='password'] {
 }
 */
 input {
-<<<<<<< HEAD
     margin: 3rem ;
     padding: 1rem;
     border-radius: 1.3rem;
-=======
     margin: .3rem 0;
     padding: 2rem;
     border-radius: 2rem;
->>>>>>> 9f13523092f46afe2196e9fbb8a6b917d5f2879e
-
-
 }
 
 .account{
