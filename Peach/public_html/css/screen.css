@@ -32,23 +32,28 @@ body.home:before{
 
 
 /*Home*/
-main .wallet-container {
-    margin-top: 2rem;
+main.home .wallet-container {
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
 }
-main .wallet-container .wallet {
+main.home .wallet-container .wallet {
     display: inline-block;
     background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
     -webkit-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
     -moz-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
     box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
-    height: 2rem;
+    line-height: 2rem;
     width: 10rem;
+    margin: 0 2rem;
+    border-radius: 2rem;
 }
-main .wallet-container div.background {
+main.home .wallet-container .background {
     background-image: url(../images/Groupe-45.png);
     background-size: cover;
     z-index: 1;
 }
+ 
 
 /*Account*/
 .navigator{
