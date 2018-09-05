@@ -24,7 +24,6 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
-<<<<<<< HEAD
 header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
@@ -33,24 +32,12 @@ header.sign-in h1 {
 }
 
 .slogan{
-    color: black; 
+    color: #FFFFFF; 
     text-align: center;
-=======
-body{
-
-}
-h1{
->>>>>>> e9b945da96871539d9c2d1d61a240e1e7bde4e53
-
 }
 
 legend {
-    /*background-color: #343434; */
-<<<<<<< HEAD
     color: #343434;
-=======
-    color: #fff;
->>>>>>> e9b945da96871539d9c2d1d61a240e1e7bde4e53
     padding: 3px 6px;
     text-align: center;
 
@@ -63,32 +50,34 @@ label {
     width: 35%;
 }
 
-input[type='text'],
+/*input[type='text'],
 input[type='password'] {
-    width: 60%;
+    width: 60%; 
 
 }
-
+*/
 input {
-    margin: .3rem 0;
-<<<<<<< HEAD
-    padding: 2rem;
-    border-radius: 2rem;
-
-
-=======
->>>>>>> e9b945da96871539d9c2d1d61a240e1e7bde4e53
+    margin: 3rem ;
+    padding: 1rem;
+    border-radius: 1.3rem;
 
 
 }
 
 .account{
     display: inline-block;
-    margin-top: 10rem;
+    margin-top: 7rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
 }
 
 .register{
     display: inline-block;
+    
+    
+}
+.row{
+    margin-top: 10rem;
 }
 
 
