@@ -88,8 +88,6 @@ main .wallet-container div.background {
 
 
 
-
-<<<<<<< HEAD
 /*Menu*/
     
     main.menu li{
@@ -100,22 +98,15 @@ main .wallet-container div.background {
     text-align: left;
         
     }
-
-=======
->>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
-
-
 /*Menu*/
 
 
 
 
 /*Help*/
-<<<<<<< HEAD
 
 
 .main {
-=======
 header.help .center-text {
     text-align: center;
 }
@@ -132,7 +123,6 @@ main.help {
 /*Transfer*/
 
 main {
->>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
     text-align: center;
 }
 main.row{
@@ -142,12 +132,5 @@ main.row{
 .masque1 {
     text-align: right;
 }
-<<<<<<< HEAD
-
 
 /*Transfer*/
-
-
-
-=======
->>>>>>> 66e045eeb2472bccf27b78e05db8c853c0a7873f
