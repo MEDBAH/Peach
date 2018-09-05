@@ -77,8 +77,8 @@ input {
 
 .register{
     display: inline-block;
-    
-    
+
+
 }
 .row{
     margin-top: 10rem;
@@ -200,7 +200,6 @@ main.home .wallet-container .mail-alert span {
 }
 .latest-operation{
     padding-top: 2rem;
-<<<<<<< HEAD
     padding-left: 5rem;
     border:0px solid;
     color: #707070;
@@ -209,16 +208,13 @@ main.home .wallet-container .mail-alert span {
     transform: translateX(-62%);
     left:50%;
     box-shadow:0px 2px 20px 3px rgba(0,0,0,0.05);
-    
+
 }
 .title{
-    
-=======
 
 }
 .latest-operation .title h5{
     display: inline-block;
->>>>>>> 5bfde95ab572dc332b7730229e7b2763de1e6d26
 }
 .latest-operation .title p:before{
     content: "";
@@ -228,20 +224,18 @@ main.home .wallet-container .mail-alert span {
     margin-left: -1rem;
     color: #E0647B;
 }
-<<<<<<< HEAD
 .title h5{
     color: black;
-=======
+}
 .title-operation{
     padding-top: 2rem;
->>>>>>> 5bfde95ab572dc332b7730229e7b2763de1e6d26
 }
 
 .positive{
     color: black;
     font-weight:600;
 }
-   
+
 
 
 
