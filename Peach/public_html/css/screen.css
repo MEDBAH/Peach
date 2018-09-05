@@ -19,17 +19,25 @@ body.home:before{
     margin: 0;
 }
 /*Sign In*/
-body{
-    
+header.sign-in h1 {
+    color: #FFFFFF;  
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
 }
-h1{
-    
+
+.slogan{
+    color: black; 
+    text-align: center;
+
 }
 
 legend {
-   /*background-color: #343434; */
-    color: #fff;
+    /*background-color: #343434; */
+    color: #343434;
     padding: 3px 6px;
+    text-align: center;
+
 }
 
 
@@ -42,17 +50,22 @@ label {
 input[type='text'],
 input[type='password'] {
     width: 60%;
-    
+
 }
 
 input {
     margin: .3rem 0;
-    
+    padding: 2rem;
+    border-radius: 2rem;
+
+
+
 
 }
 
 .account{
     display: inline-block;
+    margin-top: 10rem;
 }
 
 .register{
