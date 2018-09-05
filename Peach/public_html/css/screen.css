@@ -32,7 +32,21 @@ body.home:before{
 
 
 /*Home*/
-
+main .wallet-container {
+    margin-top: 2rem;
+}
+main .wallet-container .wallet {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
+    height: 2rem;
+    width: 10rem;
+    -webkit-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+    box-shadow: 0px 15px 86px -7px rgba(0,0,0,0.44);
+}
+main .wallet-container .wallet .background {
+    background-image: url(../images/joseph-pearson.png);
+}
 
 
 
@@ -47,16 +61,27 @@ body.home:before{
     color: white;
     text-align: center;
     font-size:1.2rem;
+    font-weight:600;
 }
 .navigator .masque{
     text-align:right;
 }
 .align-left{
-   padding-top:4rem;
+    padding-top:4rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.align-left img{
+    padding-left: 2rem;
 }
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6427610f418e8ea52181500a9264da8683bef7b8
 /*Menu*/
 
 
