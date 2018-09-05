@@ -208,34 +208,19 @@ nav  ul {
 
 /*Menu*/
 main.menu nav {
-    margin-top: 10rem;
+    transform: translateY(20%);
 }
-
 main.menu li{
-
-    list-style: none;
-    margin: 1.3rem;
-    text-align: left;
-    color: black;
-
-}
-
-div.menu{
-    position:absolute;
-    margin-top: 15rem;
-    color: black;
-
-}
-
-
-main.menu li{
-
     list-style:none;
     padding: 0;
     margin:  0;
     text-align: left;
     margin-bottom: 1.5rem;
-
+    color: black;
+}
+main.menu li.exit {
+    font-weight: 600;
+    margin-top: 5rem;
 }
 /*Menu*/
 
@@ -255,7 +240,7 @@ main.help {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 main.help textarea {
     border-radius: 1.5rem;
@@ -268,13 +253,15 @@ main.help textarea {
     height: 7.5rem;
 }
 
+main.help .about p {
+    margin-top:3rem;
+}
+main.help .content {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
 
-
-
-
-
-
-
+}
 
 /*Transfer*/
 header.transfer .center-text {
