@@ -26,6 +26,14 @@ textarea {
 }
 input {
     border: 1px solid #F1F1F1;
+    width: 90%;
+    line-height: 3rem;
+    padding: 0 2.5rem;
+    border-radius: 1.3rem;
+    color: #ACACAC;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
 }
 /*Sign In*/
 header.sign-in h1 {
