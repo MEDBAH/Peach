@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Sign-in</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"/>
+        <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/screen.css" rel="stylesheet" type="text/css"/>
     </head>
+    <body class="home">
+        <header class="sign-in">
+            <h1>Peach</h1>
+            <p class="slogan">Your money is safe</p>
+        </header>
+        <div class="row">
+            <div class="col-sm-12">
 
-    <header>
-        <h1>Peach</h1>
-    </header>
+                <legend>Sign in to continue</legend>
 
-    <body>
-        <div>TODO write content</div>
+                <div>
+                    <input type="text" id="username" name="username" placeholder="Nickname or email"  />
+                </div>
+
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Password" />
+                </div>
+            </div>
+            <p class="remember"> I don't remember my password </p>
+        </div>
+        <div>
+            <p class="account"> You don't have the account?</p>
+            <p class="register"><a href="sign-up">Register</a></p>
+        </div>
+
+
+
     </body>
 </html>
