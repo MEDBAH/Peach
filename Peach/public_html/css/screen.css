@@ -203,6 +203,9 @@ main.home .wallet-container .mail-alert span {
     display: inline-block;
     box-shadow:0px 2px 20px 3px rgba(0,0,0,0.11);
 }
+.align-left h6{
+        margin: 0;
+}
 .align-left h2{
     display:inline-block;
     padding-right:2rem;
@@ -244,11 +247,33 @@ main.home .wallet-container .mail-alert span {
     color: black;
     font-weight:600;
 }
-.personnel-limit h5{
+.personnel-limit{
     text-align: center;
     padding-top: 5rem;
 }
+.schedule{
+    padding-top: 5rem;
+}
+.cost-schedule{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    border:0px solid;
+    color: #707070;
+    border-radius:3rem;
+    display: inline-block;
+    transform: translateX(-50%);
+    left:50%;
+    box-shadow:0px 2px 20px 3px rgba(0,0,0,0.05);
 
+}
+.cost-schedule span{
+    color:  #929292;
+    font-size: 0.8rem;
+}
+.cost-schedule h5{
+    margin: 0;
+    margin-bottom: -0.3rem;
+}
 
 
 
@@ -269,6 +294,7 @@ main.menu li.exit {
     font-weight: 600;
     margin-top: 5rem;
 }
+
 /*Menu*/
 
 
