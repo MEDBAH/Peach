@@ -140,7 +140,7 @@ main.home .wallet-container {
 }
 main.home .wallet-container .wallet {
     display: inline-block;
-    background-image: linear-gradient(to right, rgba(252, 221, 137, 0.98), rgba(224, 100, 123, 0.98));
+    background-image: linear-gradient(to right, rgba(224, 100, 123, 0.98), rgba(252, 221, 137, 0.98));
     -webkit-box-shadow: 0px 15px 86px -18px rgba(0,0,0,0.44);
     -moz-box-shadow: 0px 15px 86px -18px rgba(0,0,0,0.44);
     box-shadow: 0px 15px 86px -18px rgba(0,0,0,0.44);
@@ -161,7 +161,6 @@ main.home .wallet-container .background {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
-    border-radius: 0;
     padding: 0 1.5rem;
 }
 main.home .wallet-container .margin-top {
@@ -170,10 +169,15 @@ main.home .wallet-container .margin-top {
 }
 main.home .wallet-container .wallet-id, main.home .wallet-container .mail-alert {
     text-align: right;
+    display: inline-block;
+}
+main.home .wallet-container .wallet-title {
+    padding-right: 2rem;
 }
 main.home .wallet-container .amount {
     font-size: 1.3rem;
     font-weight: bold;
+    padding-right: 3rem;
 }
 main.home .wallet-container .mail-alert img {
     position: relative;
@@ -196,16 +200,6 @@ main.home .wallet-container .mail-alert span {
     font-size: 10px;
     top: 0.8rem;
     right: 0;
-}
-main.home .wallet-container .slick-list {
-    overflow: hidden;
-    line-height: 11rem;
-}
-main.home .wallet-container .slick-slide,
-main.home .wallet-container .slick-current, 
-main.home .wallet-container .slick-active, 
-main.home .wallet-container .slick-center {
-    margin: 0 1rem;
 }
 /*Account*/
 .navigator{
