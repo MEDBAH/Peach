@@ -24,6 +24,9 @@ textarea {
     outline: 0;
     text-align: left;
 }
+input {
+    border: 1px solid #F1F1F1;
+}
 /*Sign In*/
 header.sign-in h1 {
     color: #FFFFFF;  
