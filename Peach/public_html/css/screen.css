@@ -1,6 +1,7 @@
 /*Body*/
 body {
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 body.home:before{
     content: "";
