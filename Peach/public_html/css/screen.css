@@ -538,3 +538,37 @@ main.transfer p.number {
     width: 100%;
     margin-top: 0.5rem;
 }
+
+
+
+
+
+main.transfer .accept {
+    color: #AFAFAF;
+    font-size: 0.8rem;
+}
+main.transfer .accept, main.transfer .continue{
+    display: inline-block;
+}
+
+
+
+
+main.transfer .gradient {
+    float: right;
+    background-color: #E8867F;
+}
+
+main.transfer .gradient {
+    color: #111111;
+    font-weight: 900;
+    font-size: 0.95rem;
+    
+}
+
+
+
+main.transfer .my{
+    margin-top: 5rem;
+    padding: 0.3rem;
+}
