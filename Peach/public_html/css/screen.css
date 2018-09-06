@@ -25,7 +25,7 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
-/*header.sign-in h1 {
+header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
     font-size: 3rem;
@@ -80,7 +80,7 @@ input {
     display: inline-block;
 
 
-}*/
+}
 
 
 /*Sign Up*/
