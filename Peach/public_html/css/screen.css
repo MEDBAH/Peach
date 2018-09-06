@@ -233,7 +233,7 @@ main.home .wallet-container .slick-list {
 }
 .align-left span{
     color: #5E5E5E;
-    font-size:small;
+    font-size:0.759rem;;
 }
 .align-left img{
     padding:0.8rem;
@@ -245,7 +245,10 @@ main.home .wallet-container .slick-list {
     box-shadow:0px 2px 20px 3px rgba(0,0,0,0.11);
 }
 .align-left h6{
-        margin: 0;
+    margin:0;
+    margin-bottom: -0.4rem;
+    color:#171717;
+    font-weight:600;
 }
 .align-left h2{
     display:inline-block;
@@ -268,6 +271,12 @@ main.home .wallet-container .slick-list {
 }
 .latest-operation .title h5{
     display: inline-block;
+    font-weight: 500;
+    font-size:1rem;
+    margin-bottom: 2rem;
+}
+.latest-operation .title p{
+    font-size: 0.8rem;
 }
 .latest-operation .title p:before{
     content: "";
@@ -276,6 +285,11 @@ main.home .wallet-container .slick-list {
     height:50%;
     margin-left: -1rem;
     color: #E0647B;
+}
+.latest-operation span{
+    font-size:0.8rem;
+    color:#ACACAC;
+    text-decoration: underline;
 }
 .title h5{
     color: black;
@@ -304,9 +318,19 @@ main.home .wallet-container .slick-list {
     display: inline-block;
     transform: translateX(-50%);
     left:50%;
-    box-shadow:0px 2px 20px 3px rgba(0,0,0,0.05);
+    box-shadow:0px 2px 20px 3px rgba(0,0,0,0.09);
 
 }
+/*.cost-schedule .paid-bar p:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 4px solid;
+    height:50%;
+    margin-left:3rem;
+    color: #E0647B;
+    transform:rotate(90deg);
+}*/
 .cost-schedule span{
     color:  #929292;
     font-size: 0.8rem;
@@ -314,6 +338,11 @@ main.home .wallet-container .slick-list {
 .cost-schedule h5{
     margin: 0;
     margin-bottom: -0.3rem;
+    font-weight: 600;
+    color: #171717;
+}
+.cost{
+    padding-bottom: 2rem;
 }
 
 
