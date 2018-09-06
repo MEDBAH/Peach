@@ -61,17 +61,12 @@ main.sign-in label {
     width: 35%;
 }
 
-main.sign-in input[type='text'],
-input[type='password'] {
-    width: 90%; 
-
-}
-
 main.sign-in input {
-    padding: 1rem;
+    
+/*    padding: 1rem;
     border-radius: 1.3rem;
     margin: .3rem 0;
-    padding: 2rem;
+    padding: 2rem;*/
     
 }
 
@@ -82,7 +77,7 @@ main.sign-in .account{
     margin-left: 2rem;
 }
 
-main.sign-in register{
+main.sign-in .you{
     display: inline-block;
 
 
