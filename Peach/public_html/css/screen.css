@@ -197,16 +197,7 @@ main.home .wallet-container .mail-alert span {
     top: 0.8rem;
     right: 0;
 }
-main.home .wallet-container .slick-list {
-    overflow: hidden;
-    line-height: 11rem;
-}
-main.home .wallet-container .slick-slide,
-main.home .wallet-container .slick-current, 
-main.home .wallet-container .slick-active, 
-main.home .wallet-container .slick-center {
-    margin: 0 1rem;
-}
+
 /*Account*/
 .navigator{
     display: block;
