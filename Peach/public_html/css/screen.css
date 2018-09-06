@@ -125,6 +125,84 @@ main.sign-in .you{
 
 /*Sign Up*/
 
+body.sign-up:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/background.png) no-repeat center top;
+    background-size: 100% 30rem;
+    transform: translateY(-7.5rem);
+    z-index: -1;
+}
+header.sign-up {
+    margin-top: 7rem;
+}
+header.sign-up h1 {
+    color: #FFFFFF;  
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+}
+header.sign-up .slogan{
+    color: #FFFFFF; 
+    text-align: center;
+    font-weight: 600;
+}
+main.sign-up {
+    margin-top: 11rem;
+}
+main.sign-up p.sign-up {
+    color: #343434;
+    font-size: 1.1rem;
+    text-align: center;
+}
+main.sign-up .nickname, main.sign-up .email, main.sign-up .password {
+    text-align: center;
+}
+
+/*main.sign-in p.remember {
+    display: block;
+    text-align: center;
+    font-size: small;
+    width: 100%;
+} */
+
+
+main.sign-up label {
+    display: inline-block;
+    font-size: .9rem;
+    width: 35%;
+}
+
+main.sign-up input {
+    font-weight: 300;
+}
+main.sign-up .account {
+    color: #AFAFAF;
+    font-size: 0.8rem;
+}
+main.sign-up .rules, main.sign-up .continue{
+    display: inline-block;
+}
+main.sign-up .continue{
+    float: right;
+}
+
+main.sign-up .continue a {
+    color: #111111;
+    font-weight: 900;
+    font-size: 0.95rem;
+}
+main.sign-up .accept{ 
+    margin-top: 5rem;
+    padding: 0 3rem;
+
+
+}
 
 
 
