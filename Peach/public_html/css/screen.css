@@ -25,6 +25,7 @@ textarea {
     text-align: left;
 }
 input {
+    outline: 0;
     border: 1px solid #F1F1F1;
     width: 90%;
     line-height: 3rem;
