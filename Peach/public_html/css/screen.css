@@ -24,7 +24,7 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
-header.sign-in h1 {
+/*header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
     font-size: 3rem;
@@ -38,7 +38,7 @@ header.sign-in h1 {
 
 legend {
     color: #343434;
-    /*background-color: #343434; */
+    background-color: #343434; 
     color: #343434;
     color: #fff;
     padding: 3px 6px;
@@ -53,12 +53,12 @@ label {
     width: 35%;
 }
 
-/*input[type='text'],
+input[type='text'],
 input[type='password'] {
     width: 60%; 
 
 }
-*/
+
 input {
     margin: 3rem ;
     padding: 1rem;
@@ -79,7 +79,7 @@ input {
     display: inline-block;
 
 
-}
+}*/
 
 
 /*Sign Up*/
