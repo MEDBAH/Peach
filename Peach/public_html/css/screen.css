@@ -50,29 +50,43 @@ body.sign-in:before {
     top: 0;
     background: url(../images/background.png) no-repeat center top;
     background-size: 100% 30rem;
-    transform: translateY(-20.5rem);
+    transform: translateY(-7.5rem);
     z-index: -1;
+}
+header.sign-in {
+    margin-top: 7rem;
 }
 header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
     font-size: 3rem;
     margin: 0;
+    font-weight: 900;
 }
 header.sign-in .slogan{
     color: #FFFFFF; 
     text-align: center;
+    font-weight: 600;
 }
-
-main.sign-in legend {
+main.sign-in {
+    margin-top: 11rem;
+}
+main.sign-in p.sign-in {
     color: #343434;
-    padding: 3px 6px;
+    font-size: 1.1rem;
     text-align: center;
-
 }
 main.sign-in .nickname, main.sign-in .password {
     text-align: center;
 }
+
+main.sign-in p.remember {
+    display: block;
+    text-align: center;
+    font-size: small;
+    width: 100%;
+}
+
 
 main.sign-in label {
     display: inline-block;
@@ -83,16 +97,25 @@ main.sign-in label {
 main.sign-in input {
     font-weight: 300;
 }
-
-main.sign-in .account{
+main.sign-in .account {
+    color: #AFAFAF;
+    font-size: 0.8rem;
+}
+main.sign-in .account, main.sign-in .register{
     display: inline-block;
-    margin-top: 7rem;
-    margin-right: 3rem;
-    margin-left: 2rem;
+}
+main.sign-in .register{
+    float: right;
 }
 
+main.sign-in .register a {
+    color: #111111;
+    font-weight: 900;
+    font-size: 0.95rem;
+}
 main.sign-in .you{
-    display: inline-block;
+    margin-top: 5rem;
+    padding: 0 3rem;
 
 
 }
