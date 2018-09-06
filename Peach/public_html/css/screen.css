@@ -25,6 +25,18 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
+body.sign-in:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/background.png) no-repeat center top;
+    background-size: 100% 30rem;
+    transform: translateY(-20.5rem);
+    z-index: -1;
+}
 header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
@@ -158,6 +170,9 @@ main.home .wallet-container .mail-alert span {
     font-size: 10px;
     top: 0.8rem;
     right: 0;
+}
+main.home .wallet-container .slick-list {
+    overflow: visible;
 }
 
 /*Account*/
