@@ -108,8 +108,7 @@ main.home .wallet-container .wallet {
     padding: 0 1.5rem;
 }
 main.home .wallet-container .wallet-title, main.home .wallet-container .wallet-id {
-    font-weight: 600;
-    padding: 0 0.2rem;
+    font-weight: 900;
 }
 main.home .wallet-container .wallet-title {
     padding-right: 3.5rem;
@@ -320,6 +319,7 @@ main.transfer {
     margin-top: 4rem;
     margin-bottom: 1rem;
     font-weight: 500;
+    color:red;
 }
 main.transfer textarea {
     border-radius: 1.5rem;
