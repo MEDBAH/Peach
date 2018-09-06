@@ -24,6 +24,22 @@ textarea {
     outline: 0;
     text-align: left;
 }
+input {
+    outline: 0;
+    border: 1px solid #F1F1F1;
+    width: 90%;
+    line-height: 3rem;
+    padding: 0 2.5rem;
+    border-radius: 1.3rem;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+::placeholder {
+    color: #ACACAC;
+}
 /*Sign In*/
 body.sign-in:before {
     content: "";
@@ -43,52 +59,39 @@ header.sign-in h1 {
     font-size: 3rem;
     margin: 0;
 }
-
-.slogan{
+header.sign-in .slogan{
     color: #FFFFFF; 
     text-align: center;
 }
 
-legend {
+main.sign-in legend {
     color: #343434;
-    background-color: #343434; 
-    color: #343434;
-    color: #fff;
     padding: 3px 6px;
     text-align: center;
 
 }
+main.sign-in .nickname, main.sign-in .password {
+    text-align: center;
+}
 
-
-label {
+main.sign-in label {
     display: inline-block;
     font-size: .9rem;
     width: 35%;
 }
 
-input[type='text'],
-input[type='password'] {
-    width: 60%; 
-
+main.sign-in input {
+    font-weight: 300;
 }
 
-input {
-    margin: 3rem ;
-    padding: 1rem;
-    border-radius: 1.3rem;
-    margin: .3rem 0;
-    padding: 2rem;
-    border-radius: 2rem;
-}
-
-.account{
+main.sign-in .account{
     display: inline-block;
     margin-top: 7rem;
     margin-right: 3rem;
     margin-left: 2rem;
 }
 
-.register{
+main.sign-in .you{
     display: inline-block;
 
 
