@@ -25,62 +25,57 @@ textarea {
     text-align: left;
 }
 /*Sign In*/
-/*header.sign-in h1 {
+header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
     font-size: 3rem;
     margin: 0;
 }
-
-.slogan{
+header.sign-in .slogan{
     color: #FFFFFF; 
     text-align: center;
 }
 
-legend {
+main.sign-in legend {
     color: #343434;
-    background-color: #343434; 
-    color: #343434;
-    color: #fff;
     padding: 3px 6px;
     text-align: center;
 
 }
 
 
-label {
+main.sign-in label {
     display: inline-block;
     font-size: .9rem;
     width: 35%;
 }
 
-input[type='text'],
+main.sign-in input[type='text'],
 input[type='password'] {
-    width: 60%; 
+    width: 90%; 
 
 }
 
-input {
-    margin: 3rem ;
+main.sign-in input {
     padding: 1rem;
     border-radius: 1.3rem;
     margin: .3rem 0;
     padding: 2rem;
-    border-radius: 2rem;
+    
 }
 
-.account{
+main.sign-in .account{
     display: inline-block;
     margin-top: 7rem;
     margin-right: 3rem;
     margin-left: 2rem;
 }
 
-.register{
+main.sign-in register{
     display: inline-block;
 
 
-}*/
+}
 
 
 /*Sign Up*/
