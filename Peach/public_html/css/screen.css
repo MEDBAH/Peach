@@ -1,6 +1,7 @@
 /*Body*/
 body {
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 body.home:before{
     content: "";
@@ -23,60 +24,98 @@ textarea {
     outline: 0;
     text-align: left;
 }
+input {
+    outline: 0;
+    border: 1px solid #F1F1F1;
+    width: 90%;
+    line-height: 3rem;
+    padding: 0 2.5rem;
+    border-radius: 1.3rem;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+::placeholder {
+    color: #ACACAC;
+}
 /*Sign In*/
+body.sign-in:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/background.png) no-repeat center top;
+    background-size: 100% 30rem;
+    transform: translateY(-7.5rem);
+    z-index: -1;
+}
+header.sign-in {
+    margin-top: 7rem;
+}
 header.sign-in h1 {
     color: #FFFFFF;  
     text-align: center;
     font-size: 3rem;
     margin: 0;
+    font-weight: 900;
 }
-
-.slogan{
+header.sign-in .slogan{
     color: #FFFFFF; 
     text-align: center;
+    font-weight: 600;
 }
-
-legend {
+main.sign-in {
+    margin-top: 11rem;
+}
+main.sign-in p.sign-in {
     color: #343434;
-    /*background-color: #343434; */
-    color: #343434;
-    color: #fff;
-    padding: 3px 6px;
+    font-size: 1.1rem;
     text-align: center;
+}
+main.sign-in .nickname, main.sign-in .password {
+    text-align: center;
+}
 
+main.sign-in p.remember {
+    display: block;
+    text-align: center;
+    font-size: small;
+    width: 100%;
 }
 
 
-label {
+main.sign-in label {
     display: inline-block;
     font-size: .9rem;
     width: 35%;
 }
 
-/*input[type='text'],
-input[type='password'] {
-    width: 60%; 
-
+main.sign-in input {
+    font-weight: 300;
 }
-*/
-input {
-    margin: 3rem ;
-    padding: 1rem;
-    border-radius: 1.3rem;
-    margin: .3rem 0;
-    padding: 2rem;
-    border-radius: 2rem;
+main.sign-in .account {
+    color: #AFAFAF;
+    font-size: 0.8rem;
 }
-
-.account{
+main.sign-in .account, main.sign-in .register{
     display: inline-block;
-    margin-top: 7rem;
-    margin-right: 3rem;
-    margin-left: 2rem;
+}
+main.sign-in .register{
+    float: right;
 }
 
-.register{
-    display: inline-block;
+main.sign-in .register a {
+    color: #111111;
+    font-weight: 900;
+    font-size: 0.95rem;
+}
+main.sign-in .you{
+    margin-top: 5rem;
+    padding: 0 3rem;
 
 
 }
@@ -112,8 +151,7 @@ main.home .wallet-container .wallet {
     padding: 0 1.5rem;
 }
 main.home .wallet-container .wallet-title, main.home .wallet-container .wallet-id {
-    font-weight: 600;
-    padding: 0 0.2rem;
+    font-weight: 900;
 }
 main.home .wallet-container .wallet-title {
     padding-right: 3.5rem;
@@ -158,6 +196,9 @@ main.home .wallet-container .mail-alert span {
     font-size: 10px;
     top: 0.8rem;
     right: 0;
+}
+main.home .wallet-container .slick-list {
+    overflow: visible;
 }
 
 /*Account*/
@@ -324,6 +365,7 @@ main.help textarea {
     padding-left: 1.5rem;
     width: 85%;
     height: 7.5rem;
+    border: 1px solid #F1F1F1;
 }
 main.help .about p {
     margin-top:3rem;
@@ -348,11 +390,41 @@ main.transfer {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    font-weight: 500;
 }
 main.transfer textarea {
     border-radius: 1.5rem;
     margin: 0.5rem;
     width: 85%;
     height: 3rem;
+}
+main.transfer ul {
+    border: 1px solid #F1F1F1;
+    width: 90%;
+    line-height: 3rem;
+    padding: 0 2.5rem;
+    border-radius: 1.3rem;
+    color: #ACACAC;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    text-align: left;
+    display: inline-block;
+}
+main.transfer li {
+    list-style: none;
+}
+main.transfer ul ul {
+    display: none;
+}
+main.transfer ul li img {
+    float: right;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+main.transfer textarea {
+    border-radius: 1.5rem;
+    margin: 0.5rem;
+    width: 90%;
+    height: 10rem;
+    border: 1px solid #F1F1F1;
 }
