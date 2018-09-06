@@ -61,10 +61,12 @@ header.sign-in h1 {
     text-align: center;
     font-size: 3rem;
     margin: 0;
+    font-weight: 900;
 }
 header.sign-in .slogan{
     color: #FFFFFF; 
     text-align: center;
+    font-weight: 600;
 }
 main.sign-in {
     margin-top: 11rem;
