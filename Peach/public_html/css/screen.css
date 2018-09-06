@@ -298,6 +298,7 @@ main.help textarea {
     padding-left: 1.5rem;
     width: 85%;
     height: 7.5rem;
+    border: 1px solid #F1F1F1;
 }
 main.help .about p {
     margin-top:3rem;
