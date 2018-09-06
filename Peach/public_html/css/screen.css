@@ -39,6 +39,8 @@ input {
 }
 ::placeholder {
     color: #ACACAC;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 /*Sign In*/
 body.sign-in:before {
@@ -197,9 +199,6 @@ main.home .wallet-container .mail-alert span {
     top: 0.8rem;
     right: 0;
 }
-main.home .wallet-container .slick-list {
-    overflow: visible;
-}
 
 /*Account*/
 .navigator{
@@ -244,6 +243,9 @@ main.home .wallet-container .slick-list {
     display: inline-block;
     box-shadow:0px 2px 20px 3px rgba(0,0,0,0.11);
 }
+.align-left h6{
+        margin: 0;
+}
 .align-left h2{
     display:inline-block;
     padding-right:2rem;
@@ -285,11 +287,33 @@ main.home .wallet-container .slick-list {
     color: black;
     font-weight:600;
 }
-.personnel-limit h5{
+.personnel-limit{
     text-align: center;
     padding-top: 5rem;
 }
+.schedule{
+    padding-top: 5rem;
+}
+.cost-schedule{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    border:0px solid;
+    color: #707070;
+    border-radius:3rem;
+    display: inline-block;
+    transform: translateX(-50%);
+    left:50%;
+    box-shadow:0px 2px 20px 3px rgba(0,0,0,0.05);
 
+}
+.cost-schedule span{
+    color:  #929292;
+    font-size: 0.8rem;
+}
+.cost-schedule h5{
+    margin: 0;
+    margin-bottom: -0.3rem;
+}
 
 
 
@@ -310,6 +334,7 @@ main.menu li.exit {
     font-weight: 600;
     margin-top: 5rem;
 }
+
 /*Menu*/
 
 
@@ -333,8 +358,6 @@ main.help {
 main.help textarea {
     border-radius: 1.5rem;
     margin: 0;
-}
-main.help textarea {
     padding: 1rem;
     padding-left: 1.5rem;
     width: 85%;
@@ -365,12 +388,6 @@ main.transfer {
     margin-top: 4rem;
     margin-bottom: 1rem;
 }
-main.transfer textarea {
-    border-radius: 1.5rem;
-    margin: 0.5rem;
-    width: 85%;
-    height: 3rem;
-}
 main.transfer ul {
     border: 1px solid #F1F1F1;
     width: 90%;
@@ -397,8 +414,16 @@ main.transfer ul li img {
 }
 main.transfer textarea {
     border-radius: 1.5rem;
-    margin: 0.5rem;
+    margin: 0;
+    padding: 1rem 2.5rem;
     width: 90%;
-    height: 10rem;
+    height: 9rem;
     border: 1px solid #F1F1F1;
+}
+main.transfer p.number {
+    display: block;
+    text-align: center;
+    font-size: small;
+    width: 100%;
+    margin-top: 0.5rem;
 }
