@@ -1,13 +1,4 @@
 $(document).ready(function () {
-//    $(".wallet-container").flickity({
-//        freeScroll: true,
-//        contain: false,
-//        dragThreshold: 10,
-//        freeScrollFriction: 0.10,
-//        wrapAround: true,
-//        prevNextButtons: false,
-//        pageDots: false
-//    });
     $("#owl-demo").owlCarousel({
         loop: true,
         center: true,
@@ -15,6 +6,6 @@ $(document).ready(function () {
         dots: false,
         nav: false,
         dragEndSpeed: 500,
-        margin: 20
+        margin: 0
     });
 });
