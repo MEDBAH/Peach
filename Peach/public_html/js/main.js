@@ -2,10 +2,10 @@ $(document).ready(function () {
     $("#owl-demo").owlCarousel({
         loop: true,
         center: true,
-        items: 1.8,
+        items: 1.5,
         dots: false,
         nav: false,
-        dragEndSpeed: 500,
-        margin: 0
+        dragEndSpeed: 300,
+        margin: 20
     });
 });
