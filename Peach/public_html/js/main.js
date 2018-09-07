@@ -11,10 +11,10 @@ $(document).ready(function () {
     $("#owl-demo").owlCarousel({
         loop: true,
         center: true,
-        items: 1.5,
+        items: 1.8,
         dots: false,
         nav: false,
         dragEndSpeed: 500,
-        margin: 30
+        margin: 20
     });
 });
