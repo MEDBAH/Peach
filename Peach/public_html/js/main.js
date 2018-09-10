@@ -1,7 +1,4 @@
 $(document).ready(function () {
-
-
-
     $(window).on("scroll", function () {
         if ($(window).scrollTop() > 10) {
             $("body").addClass("scrolled");
@@ -17,8 +14,6 @@ $(document).ready(function () {
             $("main.home .wallets-container .wallet").css("margin-top", "4.5rem");
         }
     });
-
-
     $("#owl-demo").owlCarousel({
         loop: true,
         center: true,
