@@ -422,6 +422,10 @@ main.home .wallet-container .mail-alert span {
     font-weight: 600;
     color: #171717;
 }
+.count{
+    font-size:0.7rem;
+    padding-left: 1rem;
+}
 .cost{
     padding-bottom: 2rem;
 }
