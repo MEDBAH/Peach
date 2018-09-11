@@ -14,7 +14,7 @@ $(document).ready(function () {
             $("main.home .wallets-container .wallet").css("margin-top", "4.5rem");
         }
     });
-    $("#owl-demo").owlCarousel({
+    $("#wallets-slider").owlCarousel({
         loop: true,
         center: true,
         items: 1.5,
