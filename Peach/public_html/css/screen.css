@@ -313,6 +313,7 @@ main.home .wallets-container .mail-alert span {
     display: inline-block;
     vertical-align: middle;
     padding: 0 1.5rem;
+    cursor: pointer;
 }
 .navigator .menu-icon div {
     background-color: white;
